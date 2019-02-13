@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Demo</title>
+</head>
+<body>
+
+<h1>Register</h1>
+
+<form>
+
+	<!-- Creates first and last name text inputs -->
+	<div>
+	<label for="firstName">First Name: </label>
+	<input id="firstName" type="text" name="firstName" placeholder="John" required>
+	<label for="lastName">Last Name: </label>
+	<input id="lastName" type="text" name="lastName" placeholder="Smith" required>
+	</div>
+	<!-- Creates male, female, and other radio buttons -->
+	<div>
+	<label for="male">Male </label>
+	<input id="male" type="radio" name="sexChoice" value="MALE">
+	<label for="female">Female </label>
+	<input id="female" type="radio" name="sexChoice" value="FEMALE">
+	<label for="other">Other </label>
+	<input id="other" type="radio" name="sexChoice" value="OTHER">
+	</div>
+	<!-- Creates Email and password inputs -->
+	<div>
+	<label for="email">Email: </label>
+	<input id="email" type="email" name="email" placeholder="email" required>
+	<label for="password">Password: </label>
+	<input id="password" type="password" name="password" placeholder="password" minlength="5" maxlength="10" required>
+	</div>
+	<!-- Creates a drop down boxes for birthday in month, day, and year format -->
+	<div>
+	<label>
+		Birthday: 
+	<select name="month" required>
+		<option value="" disabled selected>Month</option>
+		<option value="January">January</option>
+		<option value="February">February</option>
+		<option value="March">March</option>
+		<option value="April">April</option>
+		<option value="May">May</option>
+		<option value="June">June</option>
+		<option value="July">July</option>
+		<option value="August">August</option>
+		<option value="September">September</option>
+		<option value="October">October</option>
+		<option value="November">November</option>
+		<option value="December">December</option>
+	</select>
+	<!-- Creates a drop down box for the day ranging from 1-31 -->
+	<select name="day" required>
+		<option value="" disabled selected>Day</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+	</select>
+	<!-- Creates a drop down box for the year -->
+	<select name="year" required>
+		<option value="" disabled selected>Year</option>
+		<option value="1988">1988</option>
+		<option value="1989">1989</option>
+		<option value="1990">1990</option>
+		<option value="1991">1991</option>
+		<option value="1992">1992</option>
+	</select>
+	</label>
+	</div>
+
+	<!-- Create a checkbox to agree to terms and conditions -->
+	<div>
+	<label for="agreement">I agree to the terms and conditions</label>
+	<input id="agreement" type="checkbox" name="agree" value="YES" required>
+	</div>
+
+	<button>Submit</button>
+
+</form>
+</body>
+</html>
