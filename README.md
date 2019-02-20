@@ -7,3 +7,4 @@ Thank you for checking them out!
 Form Demo: Created using HTML only.
 Blog Demo: Created using HTML and CSS.
 Purrrfect Match: Created using HTML, CSS, and Bootstrap 3.3.7. 
+Candy Museum: Created using HTML, CSS, and Bootstrap 4.
