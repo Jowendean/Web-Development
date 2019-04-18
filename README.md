@@ -9,3 +9,6 @@ Blog Demo: Created using HTML and CSS.</br>
 Purrrfect Match: Created using HTML, CSS, and Bootstrap 3.3.7.</br> 
 Candy Museum: Created using HTML, CSS, and Bootstrap 4.</br>
 Score Keeper: Created using HTML, CSS, and Javascript</br>
+PATATAP: A web app for making interesting musical symphonies. Just press any key a-z to play sounds an animations!</br>
+          Created using HTML, CSS, Javascript. Also includes Paper.js and Howler.js libraries for animations and sound.</br>
+          
